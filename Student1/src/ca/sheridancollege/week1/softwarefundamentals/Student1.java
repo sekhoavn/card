@@ -14,6 +14,26 @@ public class Student1 {
     private String name;
     private int ID;
 
+    private int nuMCourses;
+
+    /**
+     * Get the value of nuMCourses
+     *
+     * @return the value of nuMCourses
+     */
+    public int getNuMCourses() {
+        return nuMCourses;
+    }
+
+    /**
+     * Set the value of nuMCourses
+     *
+     * @param nuMCourses new value of nuMCourses
+     */
+    public void setNuMCourses(int nuMCourses) {
+        this.nuMCourses = nuMCourses;
+    }
+
     public Student1(String name, int ID) {
         this.name = name;
         this.ID = ID;
