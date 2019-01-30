@@ -15,5 +15,6 @@ public class CardTester {
         c1.setSuit("Spades");
         System.out.println ("New suit is "+ c1.getSuit());
         System.out.println("Hello!");
+       
     }
 }
