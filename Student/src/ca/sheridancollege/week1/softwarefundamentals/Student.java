@@ -17,7 +17,7 @@ public class Student {
     
     private String Address;
   
-     * /**
+     /**
      * Get the value of Address
      *
      * @return the value of Address
@@ -35,7 +35,7 @@ public class Student {
         this.Address = Address;
     }
 
-     * Get the value of ID
+     /* Get the value of ID
      *
      * @return the value of ID
      */
