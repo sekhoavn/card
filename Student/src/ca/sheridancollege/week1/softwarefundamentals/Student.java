@@ -7,50 +7,54 @@ package ca.sheridancollege.week1.softwarefundamentals;
 
 /**
  *
- * @author mehta
+ * @author test
  */
 public class Student {
 
-    /**Model class student
-     * Having name, ID 
-     * @param args the command line arguments
-     */
-    private String name;
     private int ID;
+    private String name;
 
-    public Student(String givenName, int givenID)
-    {
-        name=givenName;
-        ID=givenID;
-    }
     /**
-     * @return the name
+     * Get the value of ID
+     *
+     * @return the value of ID
+     */
+    public int getID() {
+        return ID;
+    }
+
+    public Student(String name, int ID) {
+        this.name = name;
+        this.ID = ID;
+    }
+
+    /**
+     * Set the value of ID
+     *
+     * @param ID new value of ID
+     */
+    public void setID(int ID) {
+        this.ID = ID;
+    }
+   
+
+    /**
+     * Get the value of string
+     *
+     * @return the value of string
      */
     public String getName() {
         return name;
     }
 
     /**
-     * @param givenName the name to set
+     * Set the value of string
+     *
+     * @param string new value of string
      */
-    public void setName(String givenName) {
-        name = givenName;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    /**
-     * @return the ID
-     */
-    public int getID() {
-        return ID;
-    }
-
-    /**
-     * @param givenID the ID to set
-     */
-    public void setID(int givenID) {
-        ID = givenID;
-    }
-    
-    
     
 }
