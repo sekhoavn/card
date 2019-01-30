@@ -14,7 +14,27 @@ public class Student {
     private int ID;
     private String name;
 
+    
+    private String Address;
+  
+     * /**
+     * Get the value of Address
+     *
+     * @return the value of Address
+     */
+    public String getAddress() {
+        return Address;
+    }
+
     /**
+     * Set the value of Address
+     *
+     * @param Address new value of Address
+     */
+    public void setAddress(String Address) {
+        this.Address = Address;
+    }
+
      * Get the value of ID
      *
      * @return the value of ID
