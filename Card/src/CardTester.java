@@ -6,7 +6,7 @@
 
 /**
  *
- * @author sidhu376
+ * @author test
  */
 public class CardTester {
     public static void main(String[] args)
