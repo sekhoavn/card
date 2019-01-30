@@ -21,6 +21,7 @@ public class StudentTester {
         stuList[3]= new Student("Stu4",124);
         stuList[4]= new Student("Stu5",125);
         
+        
         for (int i=0;i<stuList.length;i++)
         {
             System.out.println ("Name:" + stuList[i].getName() + " ID: " + stuList[i].getID());
